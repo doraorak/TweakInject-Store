@@ -48,8 +48,7 @@
         "Section": "Utilities"
       },
       "section": "Utilities",
-      "sha256": "6a2d76c855e76f8d28297799a19612419881bb0e9bd1b54243227ded891c1301",
-      "privilege": "Any"
+      "sha256": "6a2d76c855e76f8d28297799a19612419881bb0e9bd1b54243227ded891c1301"
     }
   ],
   "name": "TI Store"
