@@ -26,7 +26,7 @@
       "sha256": "1ba74d8746650c5b13d8949367ca25b70ac20e2e68a6fff7d53593347abdaecf"
     },
     {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "doraorak",
       "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.dockpid.deb",
       "maintainer": "doraorak",
@@ -48,7 +48,7 @@
         "Section": "Utilities"
       },
       "section": "Utilities",
-      "sha256": "6a2d76c855e76f8d28297799a19612419881bb0e9bd1b54243227ded891c1301"
+      "sha256": "97f7df43c98773b32b0e173ec0cfb3f8856d108403e5027d576372644d636a5d"
     }
   ],
   "name": "TI Store"
