@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "doraorak",
       "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.preferenceloader.deb",
       "maintainer": "doraorak",
@@ -23,7 +23,7 @@
         "Section": "System"
       },
       "section": "System",
-      "sha256": "1ba74d8746650c5b13d8949367ca25b70ac20e2e68a6fff7d53593347abdaecf"
+      "sha256": "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a"
     },
     {
       "version": "1.0.1",
