@@ -1,55 +1,56 @@
 {
-  "name" : "TI Store",
   "packages" : [
     {
       "packageID" : "com.doraorak.preferenceloader",
+      "version" : "1.0.1",
+      "sha256" : "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a",
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
+      "category" : "System",
+      "maintainer" : "doraorak",
       "section" : "System",
       "architecture" : "darwin-arm64e",
-      "maintainer" : "doraorak",
-      "category" : "System",
-      "sourceRepoName" : "TI Store",
       "author" : "doraorak",
-      "depends" : "mobilesubstrate (>= 0.9.5000)",
-      "version" : "1.0.1",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
-      "sha256" : "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a",
-      "name" : "PreferenceLoader",
       "controlFields" : {
-        "Architecture" : "darwin-arm64e",
-        "Author" : "doraorak",
-        "Description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
         "Name" : "PreferenceLoader",
+        "Package" : "com.doraorak.preferenceloader",
+        "Description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
+        "Section" : "System",
+        "Architecture" : "darwin-arm64e",
         "Version" : "1.0.1",
         "Depends" : "mobilesubstrate (>= 0.9.5000)",
-        "Package" : "com.doraorak.preferenceloader",
-        "Section" : "System"
+        "Author" : "doraorak"
       },
-      "description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader."
+      "sourceRepoName" : "TI Store",
+      "depends" : "mobilesubstrate (>= 0.9.5000)",
+      "description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
+      "name" : "PreferenceLoader"
     },
     {
       "packageID" : "com.doraorak.dockpid",
+      "version" : "1.0.2",
+      "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
+      "category" : "Utilities",
+      "maintainer" : "doraorak",
       "section" : "Utilities",
       "architecture" : "darwin-arm64e",
-      "maintainer" : "doraorak",
-      "category" : "Utilities",
-      "sourceRepoName" : "TI Store",
       "author" : "doraorak",
-      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
-      "version" : "1.0.2",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
-      "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
-      "name" : "dockpid",
       "controlFields" : {
-        "Architecture" : "darwin-arm64e",
-        "Author" : "doraorak",
-        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
         "Name" : "dockpid",
+        "Package" : "com.doraorak.dockpid",
+        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
+        "Section" : "Utilities",
+        "Architecture" : "darwin-arm64e",
         "Version" : "1.0.2",
         "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
-        "Package" : "com.doraorak.dockpid",
-        "Section" : "Utilities"
+        "Author" : "doraorak"
       },
-      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates."
+      "sourceRepoName" : "TI Store",
+      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
+      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
+      "name" : "dockpid"
     }
-  ]
+  ],
+  "name" : "TI Store",
+  "serial" : 1
 }
