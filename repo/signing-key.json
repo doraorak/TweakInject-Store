@@ -1,0 +1,4 @@
+{
+  "note": "TweakInject store signing key (Secure Enclave, authorised by offline root)",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWTepzQOI5IubAjo4Pk1PcJ+ZXlZ\n9eMT18yMaXRtXiACzKg9v9v9Jb6ZNrqWbRzoGx70FwmfM/Ymqx2SPzPpBw==\n-----END PUBLIC KEY-----\n"
+}
