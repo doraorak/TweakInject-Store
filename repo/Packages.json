@@ -1,69 +1,72 @@
 {
-  "serial" : 19,
+  "name" : "TI Store",
+  "serial" : 20,
+  "featuredPackageIDs" : [
+    "com.doraorak.preferenceloader"
+  ],
   "packages" : [
     {
-      "version" : "1.0.2",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
-      "packageID" : "com.doraorak.dockpid",
-      "controlFields" : {
-        "Name" : "dockpid",
-        "Package" : "com.doraorak.dockpid",
-        "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
-        "Version" : "1.0.2",
-        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-        "Author" : "doraorak",
-        "Section" : "Utilities",
-        "Architecture" : "darwin-arm64e"
-      },
-      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/banner.png",
-      "section" : "Utilities",
-      "author" : "doraorak",
-      "hookCount" : 2,
       "sourceRepoName" : "TI Store",
+      "version" : "1.0.2",
+      "maintainer" : "doraorak",
+      "packageID" : "com.doraorak.dockpid",
+      "name" : "dockpid",
+      "architecture" : "darwin-arm64e",
+      "category" : "Utilities",
+      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
       "screenshotURLs" : [
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/screenshots\/1.png"
       ],
-      "architecture" : "darwin-arm64e",
-      "category" : "Utilities",
-      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/featured.png",
-      "name" : "dockpid",
-      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
-      "maintainer" : "doraorak",
+      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/banner.png",
+      "hookCount" : 2,
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
+      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
       "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
-      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates."
+      "author" : "doraorak",
+      "controlFields" : {
+        "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
+        "Version" : "1.0.2",
+        "Name" : "dockpid",
+        "Package" : "com.doraorak.dockpid",
+        "Section" : "Utilities",
+        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
+        "Architecture" : "darwin-arm64e",
+        "Author" : "doraorak"
+      },
+      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/featured.png",
+      "section" : "Utilities"
     },
     {
-      "version" : "1.0.1",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
-      "packageID" : "com.doraorak.preferenceloader",
-      "controlFields" : {
-        "Name" : "PreferenceLoader",
-        "Package" : "com.doraorak.preferenceloader",
-        "Depends" : "mobilesubstrate (>= 0.9.5000)",
-        "Version" : "1.0.1",
-        "Description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
-        "Author" : "doraorak",
-        "Section" : "System",
-        "Architecture" : "darwin-arm64e"
-      },
-      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/banner.png",
-      "section" : "System",
-      "author" : "doraorak",
-      "hookCount" : 45,
       "sourceRepoName" : "TI Store",
+      "version" : "1.0.1",
+      "maintainer" : "doraorak",
+      "packageID" : "com.doraorak.preferenceloader",
+      "name" : "PreferenceLoader",
+      "architecture" : "darwin-arm64e",
+      "category" : "System",
+      "depends" : "mobilesubstrate (>= 0.9.5000)",
       "screenshotURLs" : [
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/screenshots\/1.png",
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/screenshots\/2.png"
       ],
-      "architecture" : "darwin-arm64e",
-      "category" : "System",
-      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/featured.png",
-      "name" : "PreferenceLoader",
-      "depends" : "mobilesubstrate (>= 0.9.5000)",
-      "maintainer" : "doraorak",
+      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/banner.png",
+      "hookCount" : 45,
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
+      "description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
       "sha256" : "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a",
-      "description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader."
+      "author" : "doraorak",
+      "controlFields" : {
+        "Section" : "System",
+        "Depends" : "mobilesubstrate (>= 0.9.5000)",
+        "Architecture" : "darwin-arm64e",
+        "Description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
+        "Version" : "1.0.1",
+        "Package" : "com.doraorak.preferenceloader",
+        "Name" : "PreferenceLoader",
+        "Author" : "doraorak"
+      },
+      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/featured.png",
+      "section" : "System"
     }
-  ],
-  "name" : "TI Store"
+  ]
 }
