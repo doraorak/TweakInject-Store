@@ -1,88 +1,89 @@
 {
+  "serial" : 9,
+  "featured" : "com.doraorak.dockpid",
   "packages" : [
     {
-      "changelog" : "screenshots",
-      "version" : "1.0.0",
-      "sha256" : "2ffe1dea8ef01a147969b44d819d3b71aa2935e3374167865c3fb1f84f5b793d",
       "maintainer" : "doraorak",
+      "version" : "1.0.0",
+      "section" : "System UI",
       "depends" : "mobilesubstrate (>= 0.9.5000)",
-      "sourceRepoName" : "TI Store",
-      "name" : "rich-depiction",
+      "changelog" : "screenshots",
+      "sha256" : "2ffe1dea8ef01a147969b44d819d3b71aa2935e3374167865c3fb1f84f5b793d",
       "category" : "System UI",
       "author" : "doraorak",
-      "controlFields" : {
-        "Description" : "Test tweak, testing sreenshots",
-        "Architecture" : "arm64e",
-        "Depends" : "mobilesubstrate (>= 0.9.5000)",
-        "Version" : "1.0.0",
-        "Package" : "com.doraorak.rich-depiction",
-        "Section" : "System UI",
-        "Author" : "doraorak",
-        "Name" : "rich-depiction"
-      },
-      "architecture" : "arm64e",
-      "description" : "Test tweak, testing sreenshots",
       "packageID" : "com.doraorak.rich-depiction",
-      "section" : "System UI",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.rich-depiction.deb",
+      "sourceRepoName" : "TI Store",
       "screenshotURLs" : [
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/screenshots\/com.doraorak.rich-depiction\/1.png",
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/screenshots\/com.doraorak.rich-depiction\/2.png",
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/screenshots\/com.doraorak.rich-depiction\/3.png",
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/screenshots\/com.doraorak.rich-depiction\/4.png"
-      ]
-    },
-    {
-      "version" : "1.0.2",
-      "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
-      "maintainer" : "doraorak",
-      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
-      "sourceRepoName" : "TI Store",
-      "name" : "dockpid",
-      "category" : "Utilities",
-      "architecture" : "darwin-arm64e",
+      ],
+      "architecture" : "arm64e",
       "controlFields" : {
-        "Name" : "dockpid",
-        "Version" : "1.0.2",
+        "Package" : "com.doraorak.rich-depiction",
+        "Depends" : "mobilesubstrate (>= 0.9.5000)",
+        "Name" : "rich-depiction",
+        "Version" : "1.0.0",
+        "Architecture" : "arm64e",
         "Author" : "doraorak",
-        "Section" : "Utilities",
-        "Architecture" : "darwin-arm64e",
-        "Package" : "com.doraorak.dockpid",
-        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-        "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader"
+        "Description" : "Test tweak, testing sreenshots",
+        "Section" : "System UI"
       },
-      "author" : "doraorak",
-      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-      "packageID" : "com.doraorak.dockpid",
-      "section" : "Utilities",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb"
+      "name" : "rich-depiction",
+      "description" : "Test tweak, testing sreenshots"
     },
     {
-      "version" : "1.0.1",
-      "sha256" : "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a",
       "maintainer" : "doraorak",
-      "depends" : "mobilesubstrate (>= 0.9.5000)",
+      "version" : "1.0.2",
+      "section" : "Utilities",
+      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
+      "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
+      "category" : "Utilities",
+      "author" : "doraorak",
+      "packageID" : "com.doraorak.dockpid",
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
       "sourceRepoName" : "TI Store",
-      "name" : "PreferenceLoader",
-      "category" : "System",
       "architecture" : "darwin-arm64e",
       "controlFields" : {
+        "Package" : "com.doraorak.dockpid",
+        "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
+        "Name" : "dockpid",
+        "Author" : "doraorak",
+        "Architecture" : "darwin-arm64e",
+        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
+        "Version" : "1.0.2",
+        "Section" : "Utilities"
+      },
+      "name" : "dockpid",
+      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates."
+    },
+    {
+      "maintainer" : "doraorak",
+      "version" : "1.0.1",
+      "section" : "System",
+      "depends" : "mobilesubstrate (>= 0.9.5000)",
+      "sha256" : "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a",
+      "category" : "System",
+      "author" : "doraorak",
+      "packageID" : "com.doraorak.preferenceloader",
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
+      "sourceRepoName" : "TI Store",
+      "architecture" : "darwin-arm64e",
+      "controlFields" : {
+        "Package" : "com.doraorak.preferenceloader",
+        "Depends" : "mobilesubstrate (>= 0.9.5000)",
         "Name" : "PreferenceLoader",
         "Version" : "1.0.1",
-        "Author" : "doraorak",
-        "Section" : "System",
         "Architecture" : "darwin-arm64e",
-        "Package" : "com.doraorak.preferenceloader",
         "Description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
-        "Depends" : "mobilesubstrate (>= 0.9.5000)"
+        "Author" : "doraorak",
+        "Section" : "System"
       },
-      "author" : "doraorak",
-      "description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
-      "packageID" : "com.doraorak.preferenceloader",
-      "section" : "System",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb"
+      "name" : "PreferenceLoader",
+      "description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader."
     }
   ],
-  "name" : "TI Store",
-  "serial" : 8
+  "name" : "TI Store"
 }
