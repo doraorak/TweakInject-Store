@@ -1,34 +1,7 @@
 {
   "packages" : [
-    {
-      "section" : "System",
-      "author" : "doraorak",
-      "category" : "System",
-      "architecture" : "darwin-arm64e",
-      "name" : "PreferenceLoader",
-      "maintainer" : "doraorak",
-      "controlFields" : {
-        "Author" : "doraorak",
-        "Description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
-        "Name" : "PreferenceLoader",
-        "Version" : "1.0.1",
-        "Depends" : "mobilesubstrate (>= 0.9.5000)",
-        "Package" : "com.doraorak.preferenceloader",
-        "Architecture" : "darwin-arm64e",
-        "Section" : "System"
-      },
-      "packageID" : "com.doraorak.preferenceloader",
-      "depends" : "mobilesubstrate (>= 0.9.5000)",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
-      "sha256" : "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a",
-      "description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
-      "version" : "1.0.1",
-      "sourceRepoName" : "TI Store"
-    }
+
   ],
-  "serial" : 16,
-  "name" : "TI Store",
-  "featuredPackageIDs" : [
-    "com.doraorak.preferenceloader"
-  ]
+  "serial" : 17,
+  "name" : "TI Store"
 }
