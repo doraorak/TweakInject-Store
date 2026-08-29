@@ -1,65 +1,65 @@
 {
-  "serial" : 37,
-  "name" : "TI Store",
   "packages" : [
     {
-      "sourceRepoName" : "TI Store",
-      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/icon.svg",
-      "shortDescription" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-      "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
-      "hookCount" : 2,
-      "name" : "dockpid",
-      "packageID" : "com.doraorak.dockpid",
-      "version" : "1.0.2",
-      "section" : "Utilities",
-      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-      "architecture" : "darwin-arm64e",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
-      "category" : "Utilities",
-      "author" : "doraorak",
-      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/05f9692c1f240d1835bde4201d9de4efc0ace49a\/repo\/images\/com.doraorak.dockpid\/banner.svg",
-      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/05f9692c1f240d1835bde4201d9de4efc0ace49a\/repo\/images\/com.doraorak.dockpid\/featured.svg",
-      "maintainer" : "doraorak",
+      "controlFields" : {
+        "Name" : "dockpid",
+        "Architecture" : "darwin-arm64e",
+        "Package" : "com.doraorak.dockpid",
+        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
+        "Author" : "doraorak",
+        "Version" : "1.0.2",
+        "Section" : "Utilities",
+        "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader"
+      },
       "screenshotURLs" : [
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/05f9692c1f240d1835bde4201d9de4efc0ace49a\/repo\/images\/com.doraorak.dockpid\/screenshots\/1.png",
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/05f9692c1f240d1835bde4201d9de4efc0ace49a\/repo\/images\/com.doraorak.dockpid\/screenshots\/2.png",
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/05f9692c1f240d1835bde4201d9de4efc0ace49a\/repo\/images\/com.doraorak.dockpid\/screenshots\/3.png"
       ],
+      "author" : "doraorak",
+      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
+      "name" : "dockpid",
+      "section" : "Utilities",
+      "shortDescription" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
       "sourceRepoURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/Packages.json",
-      "controlFields" : {
-        "Package" : "com.doraorak.dockpid",
-        "Section" : "Utilities",
-        "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
-        "Architecture" : "darwin-arm64e",
-        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-        "Author" : "doraorak",
-        "Version" : "1.0.2",
-        "Name" : "dockpid"
-      },
-      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader"
+      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/icon.svg",
+      "sourceRepoName" : "TI Store",
+      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/05f9692c1f240d1835bde4201d9de4efc0ace49a\/repo\/images\/com.doraorak.dockpid\/banner.svg",
+      "hookCount" : 2,
+      "version" : "1.0.2",
+      "maintainer" : "doraorak",
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
+      "category" : "Utilities",
+      "packageID" : "com.doraorak.dockpid",
+      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/05f9692c1f240d1835bde4201d9de4efc0ace49a\/repo\/images\/com.doraorak.dockpid\/featured.svg",
+      "architecture" : "darwin-arm64e",
+      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
+      "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032"
     },
     {
-      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/icon.png",
-      "shortDescription" : "Core framework and settings aggregator for macOS tweak preference bundles.",
-      "name" : "PreferenceLoader",
-      "packageID" : "com.doraorak.preferenceloader",
-      "version" : "1.0.1",
-      "section" : "Developer",
-      "description" : "PreferenceLoader is the foundational substrate module that dynamically loads third-party configuration panes and settings bundles into the macOS preferences ecosystem.",
-      "architecture" : "arm64e",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
-      "category" : "Developer",
-      "author" : "doraorak",
-      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/banner.png",
-      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/featured.png",
       "screenshotURLs" : [
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/screenshots\/1.png"
       ],
+      "author" : "doraorak",
+      "description" : "PreferenceLoader is the foundational substrate module that dynamically loads third-party configuration panes and settings bundles into the macOS preferences ecosystem.",
+      "name" : "PreferenceLoader",
+      "section" : "Developer",
+      "shortDescription" : "Core framework and settings aggregator for macOS tweak preference bundles.",
+      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/icon.png",
+      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/banner.png",
+      "version" : "1.0.1",
+      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/featured.png",
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
+      "category" : "Developer",
+      "packageID" : "com.doraorak.preferenceloader",
+      "architecture" : "arm64e",
       "sha256" : "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a"
     }
   ],
   "featuredPackageIDs" : [
     "com.doraorak.dockpid",
     "com.doraorak.preferenceloader"
-  ]
+  ],
+  "name" : "TI Store",
+  "serial" : 38
 }
