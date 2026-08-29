@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <filter id="icon-shadow" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.4" />
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+    <linearGradient id="bezel-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0.5" />
+    </linearGradient>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181C" />
+      <stop offset="100%" stop-color="#09090A" />
+    </linearGradient>
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <linearGradient id="glass-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+    <pattern id="grid-pattern" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1" />
+    </pattern>
+    <linearGradient id="sim-safari-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Squircle -->
+  <g filter="url(#icon-shadow)">
+    <path d="M 140 40 C 220 40, 292 40, 372 40 C 448 40, 472 64, 472 140 C 472 220, 472 292, 472 372 C 472 448, 448 472, 372 472 C 292 472, 220 472, 140 472 C 64 472, 40 448, 40 372 C 40 292, 40 220, 40 140 C 40 64, 64 40, 140 40 Z"
+          fill="url(#bg-grad)"
+          stroke="url(#bezel-grad)"
+          stroke-width="3" />
+  </g>
+
+  <!-- Grid overlay -->
+  <path d="M 140 40 C 220 40, 292 40, 372 40 C 448 40, 472 64, 472 140 C 472 220, 472 292, 472 372 C 472 448, 448 472, 372 472 C 292 472, 220 472, 140 472 C 64 472, 40 448, 40 372 C 40 292, 40 220, 40 140 C 40 64, 64 40, 140 40 Z"
+        fill="url(#grid-pattern)" />
+
+  <!-- Ambient Glow behind badge -->
+  <circle cx="256" cy="220" r="110" fill="#D97706" opacity="0.15" filter="url(#gold-glow)" />
+
+  <!-- Translucent Dock Shelf (Larger and more prominent) -->
+  <rect x="76" y="320" width="360" height="86" rx="20" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="2" />
+
+  <!-- Dock Icons (Enlarged to 48x48 for clarity and impact) -->
+  <!-- Safari/Finder Equivalent -->
+  <rect x="96" y="339" width="48" height="48" rx="11" fill="url(#sim-safari-grad)" />
+  <circle cx="120" cy="363" r="12" fill="none" stroke="#FFF" stroke-width="2" opacity="0.9" />
+  <polygon points="124,359 120,363 116,367" fill="#FFF" />
+
+  <!-- System/Mail App -->
+  <rect x="164" y="339" width="48" height="48" rx="11" fill="#E5E7EB" />
+  <circle cx="188" cy="363" r="8" fill="none" stroke="#1F2937" stroke-width="2.5" />
+  <circle cx="188" cy="363" r="2.5" fill="#1F2937" />
+
+  <!-- Active App: DockPID (Centered and Highlighted) -->
+  <rect x="232" y="339" width="48" height="48" rx="11" fill="#0D0D0F" stroke="#FCD34D" stroke-width="2.5" />
+  <circle cx="256" cy="363" r="12" fill="none" stroke="#FCD34D" stroke-width="2" />
+  <circle cx="256" cy="363" r="3" fill="#FCD34D" />
+  
+  <!-- Active Indicator dot on the shelf -->
+  <circle cx="256" cy="393" r="2.5" fill="#FCD34D" />
+
+  <!-- Terminal Developer App -->
+  <rect x="300" y="339" width="48" height="48" rx="11" fill="#1F2937" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
+  <path d="M 312 355 L 320 363 L 312 371" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="324" y1="371" x2="334" y2="371" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Utilities App -->
+  <rect x="368" y="339" width="48" height="48" rx="11" fill="#38BDF8" />
+  <path d="M 382 355 L 392 363 L 402 355" fill="none" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Connection Pointer Line (Thicker and centered) -->
+  <path d="M 256 339 L 256 216" fill="none" stroke="#FCD34D" stroke-dasharray="3 3" stroke-width="2.5" opacity="0.85" />
+  <circle cx="256" cy="339" r="3.5" fill="#FCD34D" />
+  <circle cx="256" cy="216" r="3.5" fill="#FCD34D" />
+
+  <!-- Floating PID Badge (Larger and styled with tech brackets) -->
+  <g filter="url(#gold-glow)">
+    <rect x="126" y="90" width="260" height="126" rx="20" fill="url(#glass-grad)" stroke="#FCD34D" stroke-width="2.5" />
+    <path d="M 128.5 110 A 16 16 0 0 1 144 92.5 L 368 92.5 A 16 16 0 0 1 383.5 110 L 383.5 128 L 128.5 128 Z" fill="rgba(255,255,255,0.03)" />
+    
+    <!-- Corner brackets -->
+    <path d="M 142,104 L 134,104 L 134,112" fill="none" stroke="#FCD34D" stroke-width="1.5" opacity="0.7" />
+    <path d="M 370,104 L 378,104 L 378,112" fill="none" stroke="#FCD34D" stroke-width="1.5" opacity="0.7" />
+    <path d="M 134,192 L 134,202 L 144,202" fill="none" stroke="#FCD34D" stroke-width="1.5" opacity="0.7" />
+    <path d="M 378,192 L 378,202 L 368,202" fill="none" stroke="#FCD34D" stroke-width="1.5" opacity="0.7" />
+    
+    <line x1="134" y1="128" x2="378" y2="128" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+    
+    <text x="256" y="116" fill="#FCD34D" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="800" letter-spacing="6" text-anchor="middle">PID</text>
+    <text x="256" y="184" fill="#FFF" font-family="'JetBrains Mono', monospace" font-size="44" font-weight="800" text-anchor="middle">8492</text>
+  </g>
+</svg>
