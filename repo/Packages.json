@@ -1,67 +1,55 @@
 {
-  "serial" : 28,
-  "featuredPackageIDs" : [
+  "serial": 29,
+  "featuredPackageIDs": [
     "com.doraorak.preferenceloader",
     "com.doraorak.dockpid"
   ],
-  "packages" : [
+  "packages": [
     {
-      "architecture" : "darwin-arm64e",
-      "section" : "Utilities",
-      "packageID" : "com.doraorak.dockpid",
-      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/featured.png",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
-      "hookCount" : 2,
-      "screenshotURLs" : [
-        "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/screenshots\/1.png",
-        "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/screenshots\/2.png",
-        "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/screenshots\/3.png"
-      ],
-      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-      "changelog" : "Added icons, banners & screenshots",
-      "featuredDescription" : "Show process identifiers inside Dock ! ",
-      "version" : "1.0.2",
-      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/banner.png",
-      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/icon.png",
-      "controlFields" : {
-        "Author" : "doraorak",
-        "Section" : "Utilities",
-        "Architecture" : "darwin-arm64e",
-        "Name" : "dockpid",
-        "Package" : "com.doraorak.dockpid",
-        "Version" : "1.0.2",
-        "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
-        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates."
-      },
-      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
-      "author" : "doraorak",
-      "name" : "dockpid",
-      "category" : "Utilities",
-      "shortDescription" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-      "sourceRepoName" : "TI Store",
-      "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
-      "maintainer" : "doraorak"
+      "packageID": "com.doraorak.dockpid",
+      "name": "DockPID",
+      "version": "1.0.2",
+      "author": "doraorak",
+      "description": "DockPID injects into Dock.app on macOS to overlay live process indicators, PIDs, and memory metrics directly onto application icons in the Dock.",
+      "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.dockpid.deb",
+      "section": "System UI",
+      "category": "System UI",
+      "architecture": "arm64e",
+      "shortDescription": "Shows process ID and resource usage badges over running macOS Dock icons in real-time.",
+      "featuredDescription": "Displays live PID and memory footprint badges directly over running Dock application tiles.",
+      "sha256": "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
+      "iconURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/icon.png",
+      "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/featured.png",
+      "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/banner.png",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/screenshots/1.png",
+        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/screenshots/2.png",
+        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/screenshots/3.png"
+      ]
     },
     {
-      "architecture" : "arm64e",
-      "section" : "System",
-      "packageID" : "com.doraorak.preferenceloader",
-      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/featured.jpg",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
-      "screenshotURLs" : [
-        "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/screenshots\/1.jpg"
+      "architecture": "arm64e",
+      "section": "System",
+      "packageID": "com.doraorak.preferenceloader",
+      "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/featured.jpg",
+      "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.preferenceloader.deb",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/screenshots/1.jpg"
       ],
-      "description" : "PreferenceLoader brings the classic Theos \/ Cydia tweak settings architecture to macOS Sonoma and Sequoia System Settings. It dynamically discovers and injects third-party tweak configuration bundles into System Settings with native Apple controls, color pickers, sliders, and toggle switches.",
-      "featuredDescription" : "The essential runtime engine that dynamically renders tweak preference bundles (PSSpecifier) directly inside macOS System Settings.",
-      "version" : "1.0.1",
-      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/banner.jpg",
-      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/icon.jpg",
-      "author" : "doraorak",
-      "name" : "PreferenceLoader",
-      "category" : "System",
-      "shortDescription" : "Native tweak preference pane & bundle loader for macOS Settings",
-      "sha256" : "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a"
+      "description": "PreferenceLoader brings the classic Theos / Cydia tweak settings architecture to macOS Sonoma and Sequoia System Settings. It dynamically discovers and injects third-party tweak configuration bundles into System Settings with native Apple controls, color pickers, sliders, and toggle switches.",
+      "featuredDescription": "The essential runtime engine that dynamically renders tweak preference bundles (PSSpecifier) directly inside macOS System Settings.",
+      "version": "1.0.1",
+      "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/banner.jpg",
+      "iconURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/icon.jpg",
+      "author": "doraorak",
+      "name": "PreferenceLoader",
+      "category": "System",
+      "shortDescription": "Native tweak preference pane & bundle loader for macOS Settings",
+      "sha256": "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a"
     }
   ],
-  "name" : "TI Store"
+  "name": "TI Store",
+  "featured": [
+    "com.doraorak.dockpid"
+  ]
 }
