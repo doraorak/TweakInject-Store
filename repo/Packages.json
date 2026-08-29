@@ -1,5 +1,5 @@
 {
-  "serial": 34,
+  "serial": 35,
   "featuredPackageIDs": [
     "com.doraorak.dockpid",
     "com.doraorak.preferenceloader"
@@ -17,11 +17,10 @@
       "category": "Developer",
       "architecture": "arm64e",
       "shortDescription": "Core framework and settings aggregator for macOS tweak preference bundles.",
-      "featuredDescription": "Seamlessly aggregates and renders custom preference bundles directly within macOS System Settings.",
       "sha256": "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a",
       "iconURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/icon.png",
-      "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/featured.jpg",
-      "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/banner.jpg",
+      "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/featured.png",
+      "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/banner.png",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/screenshots/1.png"
       ]
