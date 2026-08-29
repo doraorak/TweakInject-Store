@@ -1,0 +1,192 @@
+<svg id="preferenceloader-store-banner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+        <defs>
+          <!-- Background Gradient: Sequoia space-slate-blue theme matching the icon -->
+          <linearGradient id="banner-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1E2235"></stop>
+            <stop offset="100%" stop-color="#0F111A"></stop>
+          </linearGradient>
+          
+          <!-- Ambient Glow -->
+          <radialGradient id="glow-mask" cx="75%" cy="50%" r="60%">
+            <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15"></stop>
+            <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"></stop>
+          </radialGradient>
+          
+          <!-- Subtle White Grid Pattern -->
+          <pattern id="banner-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1"></path>
+          </pattern>
+          
+          <!-- Shadows -->
+          <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="115%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.4"></feDropShadow>
+          </filter>
+          
+          <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+            <feComposite in="SourceGraphic" in2="blur" operator="over"></feComposite>
+          </filter>
+
+          <!-- Gear Shape Mask (reused from the app icon style) -->
+          <mask id="gearShapeMask" maskUnits="userSpaceOnUse" x="-100" y="-100" width="200" height="200">
+            <rect x="-100" y="-100" width="200" height="200" fill="black"></rect>
+            <g fill="white" transform="scale(0.39)">
+              <rect x="-24" y="-180" width="48" height="70" rx="10"></rect>
+              <rect x="-24" y="-180" width="48" height="70" rx="10" transform="rotate(45)"></rect>
+              <rect x="-24" y="-180" width="48" height="70" rx="10" transform="rotate(90)"></rect>
+              <rect x="-24" y="-180" width="48" height="70" rx="10" transform="rotate(135)"></rect>
+              <rect x="-24" y="-180" width="48" height="70" rx="10" transform="rotate(180)"></rect>
+              <rect x="-24" y="-180" width="48" height="70" rx="10" transform="rotate(225)"></rect>
+              <rect x="-24" y="-180" width="48" height="70" rx="10" transform="rotate(270)"></rect>
+              <rect x="-24" y="-180" width="48" height="70" rx="10" transform="rotate(315)"></rect>
+              <circle cx="0" cy="0" r="130"></circle>
+            </g>
+            <circle cx="0" cy="0" r="25" fill="black"></circle>
+          </mask>
+
+          <linearGradient id="gearGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#F3F4F6"></stop>
+            <stop offset="30%" stop-color="#E5E7EB"></stop>
+            <stop offset="70%" stop-color="#D1D5DB"></stop>
+            <stop offset="100%" stop-color="#9CA3AF"></stop>
+          </linearGradient>
+        </defs>
+
+        <!-- Background Base -->
+        <rect width="1200" height="400" fill="url(#banner-bg)"></rect>
+        <rect width="1200" height="400" fill="url(#banner-grid)"></rect>
+        <circle cx="900" cy="200" r="350" fill="url(#glow-mask)"></circle>
+
+        <!-- Branding & Info (Left Column) -->
+        <g transform="translate(80, 50)">
+          <!-- Tag/Eyebrow -->
+          <text x="0" y="24" fill="#818CF8" font-family="ui-monospace, 'IBM Plex Mono', 'JetBrains Mono', Menlo, monospace" font-size="12" font-weight="700" letter-spacing="3">SYSTEM SETTINGS INTEGRATION</text>
+          
+          <!-- Title -->
+          <text x="0" y="84" fill="#FFFFFF" font-family="-apple-system, system-ui, sans-serif" font-size="54" font-weight="800" letter-spacing="-1">PreferenceLoader</text>
+          
+          <!-- Tagline -->
+          <text x="0" y="122" fill="#9CA3AF" font-family="-apple-system, system-ui, sans-serif" font-size="18" font-weight="500">Unified settings configuration for jailbreak tweaks.</text>
+
+          <!-- Bullets -->
+          <g transform="translate(0, 160)">
+            <!-- Bullet 1: Unified tweaks configuration menu -->
+            <circle cx="6" cy="14" r="3.5" fill="#818CF8"></circle>
+            <text x="20" y="18" fill="#D1D5DB" font-family="ui-monospace, 'IBM Plex Mono', 'JetBrains Mono', Menlo, monospace" font-size="13">Unified settings menu</text>
+            
+            <!-- Bullet 2: Loads preference bundles -->
+            <circle cx="6" cy="44" r="3.5" fill="#818CF8"></circle>
+            <text x="20" y="48" fill="#D1D5DB" font-family="ui-monospace, 'IBM Plex Mono', 'JetBrains Mono', Menlo, monospace" font-size="13">Loads third-party preference bundles</text>
+
+            <!-- Bullet 3: Seamless native integration -->
+            <circle cx="6" cy="74" r="3.5" fill="#818CF8"></circle>
+            <text x="20" y="78" fill="#D1D5DB" font-family="ui-monospace, 'IBM Plex Mono', 'JetBrains Mono', Menlo, monospace" font-size="13">Native Settings integration</text>
+          </g>
+        </g>
+
+        <!-- System Settings Window Mockup (Right Column) -->
+        <g transform="translate(700, 50)">
+          <!-- Window Frame (Dark macOS style) -->
+          <rect x="0" y="0" width="430" height="290" rx="12" fill="#1C1C24" stroke="rgba(255,255,255,0.08)" stroke-width="2" filter="url(#card-shadow)"></rect>
+          
+          <!-- Title Bar Traffic Lights -->
+          <circle cx="20" cy="18" r="5" fill="#FF5F56"></circle>
+          <circle cx="36" cy="18" r="5" fill="#FFBD2E"></circle>
+          <circle cx="52" cy="18" r="5" fill="#27C93F"></circle>
+          
+          <!-- Sidebar / Content Divider -->
+          <line x1="125" y1="0" x2="125" y2="290" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"></line>
+          
+          <!-- Sidebar (Left Pane) -->
+          <rect x="2" y="32" width="121" height="256" fill="#242430" opacity="0.4"></rect>
+          
+          <!-- Sidebar Menu Items -->
+          <!-- Row 1: Wi-Fi -->
+          <rect x="10" y="40" width="105" height="24" rx="4" fill="rgba(255,255,255,0.02)"></rect>
+          <circle cx="22" cy="52" r="6" fill="#3B82F6"></circle>
+          <rect x="34" y="49" width="50" height="6" rx="3" fill="rgba(255,255,255,0.4)"></rect>
+          
+          <!-- Row 2: Bluetooth -->
+          <circle cx="22" cy="80" r="6" fill="#10B981"></circle>
+          <rect x="34" y="77" width="40" height="6" rx="3" fill="rgba(255,255,255,0.25)"></rect>
+
+          <!-- Row 3: Notifications -->
+          <circle cx="22" cy="108" r="6" fill="#EF4444"></circle>
+          <rect x="34" y="105" width="55" height="6" rx="3" fill="rgba(255,255,255,0.25)"></rect>
+
+          <!-- Row 4: General -->
+          <circle cx="22" cy="136" r="6" fill="#6B7280"></circle>
+          <rect x="34" y="133" width="35" height="6" rx="3" fill="rgba(255,255,255,0.25)"></rect>
+          
+          <!-- Divider for custom tweaks section -->
+          <line x1="15" y1="162" x2="110" y2="162" stroke="rgba(255,255,255,0.08)" stroke-width="1"></line>
+          
+          <!-- Active "Tweaks" Row -->
+          <rect x="8" y="174" width="109" height="28" rx="6" fill="#3B82F6" fill-opacity="0.15" stroke="rgba(59,130,246,0.3)" stroke-width="1"></rect>
+          <!-- Small Settings Gear Icon -->
+          <g transform="translate(14, 182)">
+            <rect x="0" y="0" width="12" height="12" rx="2" fill="none"></rect>
+            <!-- Draw a small setting gear -->
+            <circle cx="6" cy="6" r="4" fill="none" stroke="#818CF8" stroke-width="1.5"></circle>
+            <circle cx="6" cy="6" r="1.5" fill="#818CF8"></circle>
+            <path d="M 6 1 L 6 3 M 6 9 L 6 11 M 1 6 L 3 6 M 9 6 L 11 6" stroke="#818CF8" stroke-width="1" stroke-linecap="round"></path>
+          </g>
+          <text x="34" y="192" fill="#FFFFFF" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600">Tweaks</text>
+
+          <!-- Main Content Area (Right Pane) -->
+          <!-- Title: Tweaks -->
+          <text x="145" y="48" fill="#FFFFFF" font-family="-apple-system, system-ui, sans-serif" font-size="16" font-weight="700">Tweaks Settings</text>
+          
+          <!-- Row 1: Tweak cylinder -->
+          <rect x="145" y="70" width="265" height="40" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.05)" stroke-width="1"></rect>
+          <!-- Icon -->
+          <rect x="155" y="78" width="24" height="24" rx="5" fill="#6366F1"></rect>
+          <!-- Tweak name representation -->
+          <rect x="190" y="84" width="60" height="6" rx="3" fill="#FFFFFF"></rect>
+          <rect x="190" y="94" width="100" height="4" rx="2" fill="rgba(255,255,255,0.3)"></rect>
+          <!-- Switch -->
+          <rect x="365" y="82" width="32" height="16" rx="8" fill="#3B82F6"></rect>
+          <circle cx="373" cy="90" r="6" fill="#FFFFFF"></circle>
+
+          <!-- Row 2: Tweak barrel -->
+          <rect x="145" y="120" width="265" height="40" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.05)" stroke-width="1"></rect>
+          <!-- Icon -->
+          <rect x="155" y="128" width="24" height="24" rx="5" fill="#EC4899"></rect>
+          <!-- Tweak name representation -->
+          <rect x="190" y="134" width="50" height="6" rx="3" fill="#FFFFFF"></rect>
+          <rect x="190" y="144" width="80" height="4" rx="2" fill="rgba(255,255,255,0.3)"></rect>
+          <!-- Switch -->
+          <rect x="365" y="132" width="32" height="16" rx="8" fill="rgba(255,255,255,0.1)"></rect>
+          <circle cx="389" cy="140" r="6" fill="rgba(255,255,255,0.4)"></circle>
+
+          <!-- Row 3: DockPID -->
+          <rect x="145" y="170" width="265" height="40" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.05)" stroke-width="1"></rect>
+          <!-- Icon -->
+          <rect x="155" y="178" width="24" height="24" rx="5" fill="#10B981"></rect>
+          <!-- Tweak name representation -->
+          <rect x="190" y="184" width="45" height="6" rx="3" fill="#FFFFFF"></rect>
+          <rect x="190" y="194" width="70" height="4" rx="2" fill="rgba(255,255,255,0.3)"></rect>
+          <!-- Switch -->
+          <rect x="365" y="182" width="32" height="16" rx="8" fill="#3B82F6"></rect>
+          <circle cx="373" cy="190" r="6" fill="#FFFFFF"></circle>
+
+          <!-- Floating Premium Card overlay showing large Gear Detail -->
+          <g transform="translate(195, 100)" filter="url(#card-shadow)">
+            <rect x="0" y="0" width="160" height="160" rx="14" fill="#242430" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"></rect>
+            
+            <!-- Large Gear in Floating Card -->
+            <g transform="translate(80, 80)">
+              <rect x="-80" y="-80" width="160" height="160" fill="url(#gearGrad)" mask="url(#gearShapeMask)"></rect>
+              
+              <!-- Clean Central Hole Cutout -->
+              <circle cx="0" cy="0" r="25" fill="#242430"></circle>
+              <circle cx="0" cy="0" r="25" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"></circle>
+            </g>
+          </g>
+
+          <!-- Connecting line pointing to active tweaks menu -->
+          <path d="M 117 188 L 195 180" fill="none" stroke="#818CF8" stroke-dasharray="2 2" stroke-width="1.5" opacity="0.6"></path>
+          <circle cx="117" cy="188" r="2" fill="#818CF8"></circle>
+          <circle cx="195" cy="180" r="2" fill="#818CF8"></circle>
+        </g>
+      </svg>
