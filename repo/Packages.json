@@ -1,8 +1,10 @@
 {
-  "name" : "TI Store",
+  "serial" : 32,
   "featuredPackageIDs" : [
-    "com.doraorak.dockpid"
+    "com.doraorak.dockpid",
+    "com.doraorak.preferenceloader"
   ],
+  "name" : "TI Store",
   "packages" : [
     {
       "depends" : "mobilesubstrate (>= 0.9.5000)",
@@ -10,27 +12,27 @@
         "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/screenshots\/1.png"
       ],
       "controlFields" : {
-        "Architecture" : "darwin-arm64e",
         "Section" : "System",
-        "Version" : "1.0.1",
-        "Name" : "PreferenceLoader",
+        "Architecture" : "darwin-arm64e",
         "Description" : "Preference bundle loader for macOS System Settings. ",
         "Package" : "com.doraorak.preferenceloader",
         "Depends" : "mobilesubstrate (>= 0.9.5000)",
+        "Name" : "PreferenceLoader",
+        "Version" : "1.0.1",
         "Author" : "doraorak"
       },
       "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/featured.png",
       "packageID" : "com.doraorak.preferenceloader",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
-      "architecture" : "darwin-arm64e",
-      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/icon.png",
       "category" : "System",
+      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/icon.png",
+      "architecture" : "darwin-arm64e",
       "shortDescription" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
       "maintainer" : "doraorak",
-      "version" : "1.0.1",
-      "name" : "PreferenceLoader",
       "description" : "Preference bundle loader for macOS System Settings. ",
+      "name" : "PreferenceLoader",
       "author" : "doraorak",
+      "version" : "1.0.1",
       "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/banner.png",
       "hookCount" : 45,
       "sourceRepoName" : "TI Store",
@@ -47,18 +49,17 @@
       "packageID" : "com.doraorak.dockpid",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
       "category" : "System UI",
-      "architecture" : "arm64e",
       "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/icon.png",
+      "architecture" : "arm64e",
       "shortDescription" : "Shows process ID and resource usage badges over running macOS Dock icons in real-time.",
-      "version" : "1.0.2",
-      "name" : "DockPID",
       "description" : "DockPID injects into Dock.app on macOS to overlay live process indicators, PIDs, and memory metrics directly onto application icons in the Dock.",
+      "name" : "DockPID",
       "author" : "doraorak",
+      "version" : "1.0.2",
       "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/banner.png",
       "section" : "System UI",
       "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
       "featuredDescription" : "Displays live PID and memory footprint badges directly over running Dock application tiles."
     }
-  ],
-  "serial" : 31
+  ]
 }
