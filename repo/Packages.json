@@ -32,7 +32,7 @@
       "category" : "Utilities",
       "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
       "author" : "doraorak",
-      "sha256" : "9de87e6fb17712f06e47892cdcd2a5b60b7fbf4e3a5ed61f37f1c992063be032",
+      "sha256" : "f466fe532a3a050936786f437503f6f908282c62b1b5b339e126dc3092fe3bf4",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
       "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
       "version" : "1.0.2",
@@ -55,7 +55,7 @@
       "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/banner.svg",
       "category" : "Developer",
       "author" : "doraorak",
-      "sha256" : "c49db0dac5324cee7db146a682c22e588b7c3ab0a847b8fea683377539b7e63a",
+      "sha256" : "1f34c12abff05a2b4759023bb7282e8141ea749d04c4b12df1789256588889b7",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
       "description" : "PreferenceLoader is the foundational substrate module that dynamically loads third-party configuration panes and settings bundles into the macOS preferences ecosystem.",
       "version" : "1.0.1",
@@ -63,5 +63,5 @@
       "sourceRepoURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/Packages.json"
     }
   ],
-  "serial" : 44
+  "serial" : 45
 }
