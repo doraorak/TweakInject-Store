@@ -12,7 +12,7 @@
         "Name" : "dockpid",
         "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
         "Architecture" : "darwin-arm64e",
-        "Version" : "1.0.2",
+        "Version" : "1.0.3",
         "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
         "Package" : "com.doraorak.dockpid",
         "Section" : "Utilities",
@@ -32,10 +32,10 @@
       "category" : "Utilities",
       "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
       "author" : "doraorak",
-      "sha256" : "f466fe532a3a050936786f437503f6f908282c62b1b5b339e126dc3092fe3bf4",
+      "sha256" : "55c2e26a3ae1e574c451dfd318198faba85fe5c484e545990a4f2ded7a5a80d8",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
       "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-      "version" : "1.0.2",
+      "version" : "1.0.3",
       "name" : "dockpid",
       "sourceRepoURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/Packages.json",
       "maintainer" : "doraorak",
@@ -55,13 +55,13 @@
       "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloader\/banner.svg",
       "category" : "Developer",
       "author" : "doraorak",
-      "sha256" : "1f34c12abff05a2b4759023bb7282e8141ea749d04c4b12df1789256588889b7",
+      "sha256" : "6f78803d46da1651431e276edb560cd1224653b3391d1df099ec2a0c0deb6cca",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
       "description" : "PreferenceLoader is the foundational substrate module that dynamically loads third-party configuration panes and settings bundles into the macOS preferences ecosystem.",
-      "version" : "1.0.1",
+      "version" : "1.0.2",
       "name" : "PreferenceLoader",
       "sourceRepoURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/Packages.json"
     }
   ],
-  "serial" : 45
+  "serial" : 46
 }
