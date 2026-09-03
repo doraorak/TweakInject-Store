@@ -1,15 +1,15 @@
 {
-  "serial": 48,
+  "serial": 49,
   "name": "TI Store",
   "packages": [
     {
       "sourceRepoName": "TI Store",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "architecture": "darwin-arm64e",
       "maintainer": "doraorak",
       "depends": "mobilesubstrate (>= 0.9.5000), preferenceloader",
       "iconURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/81f811bab4d38a9a84758dc27f8181a068b91f94/repo/images/com.doraorak.dockpid/icon.svg",
-      "sha256": "55c2e26a3ae1e574c451dfd318198faba85fe5c484e545990a4f2ded7a5a80d8",
+      "sha256": "f750c36204d84374431b9628bc93f15f37b8ac02fa052c66dc3a121ef3af7d6f",
       "section": "Utilities",
       "controlFields": {
         "Name": "dockpid",
