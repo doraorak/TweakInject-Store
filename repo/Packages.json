@@ -12,16 +12,16 @@
       "name": "Vanish",
       "hookCount": 1,
       "packageID": "com.doraorak.vanish",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.vanish.deb",
       "category": "System UI",
       "depends": "mobilesubstrate (>= 0.9.5000), preferenceloader",
-      "sha256": "9088df4ea2f8bee60ba960c1291166f607f93883a96d743fb43d470fd5bbac4d",
+      "sha256": "af2ef3d595841e5fe179d5edd16540538ebe01a3f04b92d7d7b7eb9e3d63949a",
       "author": "doraorak",
       "controlFields": {
         "Section": "System UI",
         "Package": "com.doraorak.vanish",
-        "Version": "1.0.10",
+        "Version": "1.0.11",
         "Architecture": "arm64e",
         "Author": "doraorak",
         "Description": "Add animations for closing windows.",
@@ -124,5 +124,5 @@
     "com.doraorak.preferenceloader",
     "com.doraorak.vanish"
   ],
-  "serial": 68
+  "serial": 69
 }
