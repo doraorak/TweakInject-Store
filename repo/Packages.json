@@ -62,9 +62,9 @@
       "sha256": "f750c36204d84374431b9628bc93f15f37b8ac02fa052c66dc3a121ef3af7d6f",
       "maintainer": "doraorak",
       "screenshotURLs": [
-        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/05f9692c1f240d1835bde4201d9de4efc0ace49a/repo/images/com.doraorak.dockpid/screenshots/1.png",
-        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/05f9692c1f240d1835bde4201d9de4efc0ace49a/repo/images/com.doraorak.dockpid/screenshots/2.png",
-        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/05f9692c1f240d1835bde4201d9de4efc0ace49a/repo/images/com.doraorak.dockpid/screenshots/3.png"
+        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/screenshots/1.jpg",
+        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/screenshots/2.jpg",
+        "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/screenshots/3.jpg"
       ],
       "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/7a882a584a7b41feada9efcd71f3c7b941d4b31b/repo/images/com.doraorak.dockpid/banner.svg"
     },
@@ -95,5 +95,5 @@
     "com.doraorak.preferenceloader",
     "com.doraorak.vanish"
   ],
-  "serial": 54
+  "serial": 55
 }
