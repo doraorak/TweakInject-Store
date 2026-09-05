@@ -12,16 +12,16 @@
       "name": "Vanish",
       "hookCount": 1,
       "packageID": "com.doraorak.vanish",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.vanish.deb",
       "category": "System UI",
       "depends": "mobilesubstrate (>= 0.9.5000), preferenceloader",
-      "sha256": "01ac7c5770925df42e138e0f9b09c9a6ee4025ef306c41a925562e4caf0c37bf",
+      "sha256": "9553a22cf52c10c63d28b18e19b98d6fbb87c31e93d7f9b1efd533cb1b526a26",
       "author": "doraorak",
       "controlFields": {
         "Section": "System UI",
         "Package": "com.doraorak.vanish",
-        "Version": "1.0.1",
+        "Version": "1.0.2",
         "Architecture": "arm64e",
         "Author": "doraorak",
         "Description": "Add animations for closing windows.",
@@ -92,17 +92,27 @@
     {
       "packageID": "com.doraorak.lastexit",
       "name": "LastExit",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "doraorak",
       "description": "LastExit automatically and gracefully terminates applications when their last visible window closes, coordinating seamlessly with Vanish window close animations. Features multi-tier safety protections for Finder, Dock, and background agents, plus configurable quit delay and application exclusion lists.",
       "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.lastexit.deb",
       "section": "System UI",
       "category": "System UI",
-      "architecture": "arm64e",
+      "architecture": "darwin-arm64e",
       "shortDescription": "Gracefully quit applications when their last window is closed",
       "featuredDescription": "Automatically and gracefully quit applications when their last window is closed. Seamlessly coordinated with Vanish close animations.",
-      "sha256": "51859509a4b506c9312049ff9f885e31660509c856142ae1536cd1701e09e5df",
+      "sha256": "270772cbe8bf40ee2c2094e2db899ed957224900aa73125d049e0d880d3f8cc2",
       "depends": "mobilesubstrate (>= 0.9.5000), preferenceloader",
+      "controlFields": {
+        "Section": "System UI",
+        "Package": "com.doraorak.lastexit",
+        "Version": "1.0.1",
+        "Architecture": "darwin-arm64e",
+        "Author": "Dora Orak",
+        "Description": "Gracefully quit applications when their last window closes.",
+        "Name": "LastExit",
+        "Depends": "mobilesubstrate (>= 0.9.5000), preferenceloader"
+      },
       "iconURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.lastexit/icon.svg",
       "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.lastexit/featured.svg",
       "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.lastexit/banner.svg"
@@ -114,5 +124,5 @@
     "com.doraorak.preferenceloader",
     "com.doraorak.vanish"
   ],
-  "serial": 59
+  "serial": 60
 }
