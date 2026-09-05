@@ -77,11 +77,11 @@
       "architecture": "arm64e",
       "name": "PreferenceLoader",
       "packageID": "com.doraorak.preferenceloader",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.preferenceloader.deb",
       "category": "Developer",
       "sourceRepoURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/Packages.json",
-      "sha256": "b32a942b037d4fa9d2ba21980ae184000139f4b25835759075d3fa17e394eb29",
+      "sha256": "5a4df00b5fb5043be23af96b6932085be050481e57cd5479a2f9598fffffc40b",
       "author": "doraorak",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloader/screenshots/1.jpg"
@@ -95,5 +95,5 @@
     "com.doraorak.preferenceloader",
     "com.doraorak.vanish"
   ],
-  "serial": 55
+  "serial": 56
 }
