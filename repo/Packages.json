@@ -88,12 +88,31 @@
       ],
       "shortDescription": "Settings tweak for macOS tweak preference bundles.",
       "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/d84004af21cd63fb9863c5c9d5ad25ca3442cd95/repo/images/com.doraorak.preferenceloader/banner.svg"
+    },
+    {
+      "packageID": "com.doraorak.lastexit",
+      "name": "LastExit",
+      "version": "1.0.0",
+      "author": "doraorak",
+      "description": "LastExit automatically and gracefully terminates applications when their last visible window closes, coordinating seamlessly with Vanish window close animations. Features multi-tier safety protections for Finder, Dock, and background agents, plus configurable quit delay and application exclusion lists.",
+      "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.lastexit.deb",
+      "section": "System UI",
+      "category": "System UI",
+      "architecture": "arm64e",
+      "shortDescription": "Gracefully quit applications when their last window is closed",
+      "featuredDescription": "Automatically and gracefully quit applications when their last window is closed. Seamlessly coordinated with Vanish close animations.",
+      "sha256": "51859509a4b506c9312049ff9f885e31660509c856142ae1536cd1701e09e5df",
+      "depends": "mobilesubstrate (>= 0.9.5000), preferenceloader",
+      "iconURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.lastexit/icon.svg",
+      "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.lastexit/featured.svg",
+      "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.lastexit/banner.svg"
     }
   ],
   "featuredPackageIDs": [
+    "com.doraorak.lastexit",
     "com.doraorak.dockpid",
     "com.doraorak.preferenceloader",
     "com.doraorak.vanish"
   ],
-  "serial": 56
+  "serial": 57
 }

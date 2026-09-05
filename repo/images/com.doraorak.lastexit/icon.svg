@@ -1,0 +1,91 @@
+<svg id="lastexit-app-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Canvas background: soft cool gray gradient -->
+    <linearGradient id="le-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F5F7"/>
+      <stop offset="100%" stop-color="#DDDCE1"/>
+    </linearGradient>
+
+    <!-- Fine grid overlay -->
+    <pattern id="le-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(0, 0, 0, 0.035)" stroke-width="1"/>
+    </pattern>
+
+    <!-- Ambient glow behind the exit icon -->
+    <radialGradient id="le-glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#FF3B30" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#FF9500" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FF3B30" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Window body gradient -->
+    <linearGradient id="le-win-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2C2C2E"/>
+      <stop offset="100%" stop-color="#1C1C1E"/>
+    </linearGradient>
+
+    <!-- Door / Exit portal gradient -->
+    <linearGradient id="le-exit-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6961"/>
+      <stop offset="50%" stop-color="#FF3B30"/>
+      <stop offset="100%" stop-color="#C02018"/>
+    </linearGradient>
+
+    <!-- Soft window shadow -->
+    <filter id="le-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+
+    <!-- Exit button shadow -->
+    <filter id="le-exit-shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#B31E15" flood-opacity="0.40"/>
+    </filter>
+  </defs>
+
+  <!-- Base canvas + grid -->
+  <rect width="512" height="512" fill="url(#le-bg)"/>
+  <rect width="512" height="512" fill="url(#le-grid)"/>
+
+  <!-- Ambient background glow -->
+  <circle cx="256" cy="256" r="240" fill="url(#le-glow)"/>
+
+  <!-- Main Window Frame -->
+  <g filter="url(#le-shadow)">
+    <!-- Window Body -->
+    <rect x="86" y="96" width="340" height="320" rx="28" fill="url(#le-win-grad)" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+
+    <!-- Titlebar separator -->
+    <line x1="86" y1="162" x2="426" y2="162" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+    <!-- Traffic light buttons -->
+    <circle cx="126" cy="129" r="10" fill="#FF5F56" stroke="#E0443E" stroke-width="0.75"/>
+    <circle cx="156" cy="129" r="10" fill="#FFBD2E" stroke="#DEA123" stroke-width="0.75"/>
+    <circle cx="186" cy="129" r="10" fill="#27C93F" stroke="#1AAB29" stroke-width="0.75"/>
+
+    <!-- Title text bar -->
+    <rect x="236" y="124" width="100" height="10" rx="5" fill="rgba(255,255,255,0.15)"/>
+
+    <!-- Portal / Exit Door inside the window -->
+    <g transform="translate(186, 206)">
+      <!-- Door frame -->
+      <rect x="0" y="0" width="140" height="160" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+
+      <!-- Exit Arrow escaping outward -->
+      <g filter="url(#le-exit-shadow)">
+        <!-- Curved dynamic escape arrow -->
+        <path d="M 40 100 L 40 60 C 40 45, 55 35, 75 35 L 105 35" fill="none" stroke="url(#le-exit-grad)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+        <!-- Arrowhead pointing right -->
+        <path d="M 95 18 L 120 35 L 95 52 Z" fill="url(#le-exit-grad)"/>
+      </g>
+
+      <!-- Door handle/lock accent -->
+      <circle cx="28" cy="80" r="5" fill="#FF5F56" opacity="0.8"/>
+    </g>
+
+    <!-- Extinguished Dock Indicator Dot at bottom center -->
+    <g transform="translate(244, 386)">
+      <circle cx="12" cy="12" r="7" fill="none" stroke="#FF5F56" stroke-width="1.5" stroke-dasharray="2 3" opacity="0.6"/>
+      <circle cx="12" cy="12" r="3" fill="#FF5F56" opacity="0.85"/>
+    </g>
+  </g>
+</svg>
