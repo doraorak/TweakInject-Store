@@ -12,11 +12,11 @@
       "name": "Vanish",
       "hookCount": 1,
       "packageID": "com.doraorak.vanish",
-      "version": "1.0.21",
+      "version": "1.0.22",
       "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.vanish.deb",
       "category": "System UI",
       "depends": "mobilesubstrate (>= 0.9.5000), preferenceloader",
-      "sha256": "7048277a81cb9bbe85d2291b76d5e931bd2d33f0d68137f14d5e9c5f7e0e67e3",
+      "sha256": "76c8d47c38560d5a48eee5ec2b3eabc12c321c778fe7fb18bcf92ee8ce921cc4",
       "author": "doraorak",
       "controlFields": {
         "Section": "System UI",
@@ -124,5 +124,5 @@
     "com.doraorak.preferenceloader",
     "com.doraorak.vanish"
   ],
-  "serial": 81
+  "serial": 82
 }
