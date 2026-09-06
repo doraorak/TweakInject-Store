@@ -16,7 +16,7 @@
       "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.vanish.deb",
       "category": "System UI",
       "depends": "mobilesubstrate (>= 0.9.5000), preferenceloader",
-      "sha256": "c56ceaa4f70812e837e75e9255ef7f95d77bf6f59bfd0de9fcc4c02cf055f514",
+      "sha256": "3e14f4278c547e8f62047ec2d8479e6681bd5f9369c9589a3900e0bfe6e55c91",
       "author": "doraorak",
       "controlFields": {
         "Section": "System UI",
@@ -124,5 +124,5 @@
     "com.doraorak.preferenceloader",
     "com.doraorak.vanish"
   ],
-  "serial": 76
+  "serial": 77
 }
