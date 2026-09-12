@@ -36,7 +36,7 @@
       "shortDescription": "Window close animations with per-animation duration controls",
       "maintainer": "doraorak",
       "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/6dd05753443b68a1674b42400a221a88fb00ebe1/repo/images/com.doraorak.vanish/featured.svg",
-      "sha256": "3ffd6edf1d47d62669445c1267a8d27e8879e052e76c276c1bd1358043d09ae5",
+      "sha256": "6cbf19023287a069432e08b127f061444b45074b49d08b5c5e76e3dfffe2c147",
       "packageID": "com.doraorak.vanish"
     },
     {
@@ -138,5 +138,5 @@
       "packageID": "com.doraorak.lastexit"
     }
   ],
-  "serial": 98
+  "serial": 99
 }
