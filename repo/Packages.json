@@ -19,7 +19,7 @@
         "Description": "Animates windows closing from the red traffic-light button.",
         "Architecture": "darwin-arm64e"
       },
-      "version": "1.1.1",
+      "version": "1.1.2",
       "architecture": "darwin-arm64e",
       "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/6dd05753443b68a1674b42400a221a88fb00ebe1/repo/images/com.doraorak.vanish/banner.svg",
       "hookCount": 1,
@@ -36,7 +36,7 @@
       "shortDescription": "Window close animations with per-animation duration controls",
       "maintainer": "doraorak",
       "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/6dd05753443b68a1674b42400a221a88fb00ebe1/repo/images/com.doraorak.vanish/featured.svg",
-      "sha256": "6cbf19023287a069432e08b127f061444b45074b49d08b5c5e76e3dfffe2c147",
+      "sha256": "7763a444864834989a299084a7284e5c456ec588f982b735ef77f4215987c0f1",
       "packageID": "com.doraorak.vanish"
     },
     {
@@ -138,5 +138,5 @@
       "packageID": "com.doraorak.lastexit"
     }
   ],
-  "serial": 100
+  "serial": 101
 }
