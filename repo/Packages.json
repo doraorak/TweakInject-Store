@@ -15,28 +15,28 @@
         "Section": "System UI",
         "Name": "Vanish",
         "Package": "com.doraorak.vanish",
-        "Version": "1.0.29",
-        "Description": "Add animations for closing windows.",
-        "Architecture": "arm64e"
+        "Version": "1.1.0",
+        "Description": "Animates windows closing from the red traffic-light button.",
+        "Architecture": "darwin-arm64e"
       },
-      "version": "1.0.29",
-      "architecture": "arm64e",
+      "version": "1.1.0",
+      "architecture": "darwin-arm64e",
       "bannerImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/6dd05753443b68a1674b42400a221a88fb00ebe1/repo/images/com.doraorak.vanish/banner.svg",
       "hookCount": 1,
-      "changelog": "Released",
+      "changelog": "Custom NSViewController preference pane with per-animation duration sliders.",
       "depends": "mobilesubstrate (>= 0.9.5000), preferenceloaderti",
       "category": "System UI",
       "sourceRepoName": "TI Store",
       "downloadURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/debs/com.doraorak.vanish.deb",
       "author": "doraorak",
       "name": "Vanish",
-      "description": "Add animations for closing windows.",
+      "description": "Animates windows closing from the red traffic-light button with customizable per-animation durations.",
       "iconURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/6dd05753443b68a1674b42400a221a88fb00ebe1/repo/images/com.doraorak.vanish/icon.svg",
       "section": "System UI",
-      "shortDescription": "Add animations for closing windows",
+      "shortDescription": "Window close animations with per-animation duration controls",
       "maintainer": "doraorak",
       "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/6dd05753443b68a1674b42400a221a88fb00ebe1/repo/images/com.doraorak.vanish/featured.svg",
-      "sha256": "936a7ba4bccf4d87bd4dd6c71e9b9d69afa7533cb45153f4605ab53a296dc9ca",
+      "sha256": "3be076385ebd59ac60832da559c635df0578c1b686adb5889937dedc3f6742cd",
       "packageID": "com.doraorak.vanish"
     },
     {
@@ -138,5 +138,5 @@
       "packageID": "com.doraorak.lastexit"
     }
   ],
-  "serial": 94
+  "serial": 95
 }
