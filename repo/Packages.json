@@ -51,7 +51,7 @@
         "Description": "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
         "Architecture": "darwin-arm64e"
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "architecture": "darwin-arm64e",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.dockpid/screenshots/1.jpg",
@@ -72,7 +72,7 @@
       "shortDescription": "Appends the process ID of each running app to its Dock tile label.",
       "maintainer": "doraorak",
       "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/7a882a584a7b41feada9efcd71f3c7b941d4b31b/repo/images/com.doraorak.dockpid/featured.svg",
-      "sha256": "61471d2323ef3bd8784556fa0d61d6f1c0d4a01125cefd0a69e258583bf0e585",
+      "sha256": "b476fe2c48a61e7deb804f6a861c2c90d6ca0f37879413d2abfff791977e2b38",
       "packageID": "com.doraorak.dockpid"
     },
     {
@@ -138,5 +138,5 @@
       "packageID": "com.doraorak.lastexit"
     }
   ],
-  "serial": 93
+  "serial": 94
 }
