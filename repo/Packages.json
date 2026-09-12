@@ -88,7 +88,7 @@
         "Section": "System",
         "Depends": "mobilesubstrate (>= 0.9.5000)"
       },
-      "version": "1.1.0",
+      "version": "1.1.1",
       "architecture": "darwin-arm64e",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloaderti/screenshots/1.jpg"
@@ -106,7 +106,7 @@
       "section": "Developer",
       "shortDescription": "Settings tweak for macOS tweak preference bundles.",
       "featuredImageURL": "https://raw.githubusercontent.com/doraorak/TweakInject-Store/main/repo/images/com.doraorak.preferenceloaderti/featured.svg",
-      "sha256": "ac4b53538d5bd6709d851c9ce70a42920ad828591b6de62b1a3ece9a983f8548",
+      "sha256": "6bdcd6ce55e561699153626c9c3b5be7aeff5ef951b60ae7429f398c11a872dc",
       "packageID": "com.doraorak.preferenceloaderti"
     },
     {
@@ -138,5 +138,5 @@
       "packageID": "com.doraorak.lastexit"
     }
   ],
-  "serial": 99
+  "serial": 100
 }
