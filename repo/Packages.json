@@ -11,7 +11,7 @@
       "controlFields" : {
         "Depends" : "mobilesubstrate (>= 0.9.5000)",
         "Package" : "com.doraorak.vanish",
-        "Description" : "Animates windows closing from the red traffic-light button.",
+        "Description" : "Animates windows closing from the red traffic-light button with over 10 customizable animations.",
         "Version" : "1.2",
         "Author" : "doraorak",
         "Architecture" : "arm64e",
@@ -21,10 +21,10 @@
       "hookCount" : 1,
       "name" : "Vanish",
       "architecture" : "arm64e",
-      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/6dd05753443b68a1674b42400a221a88fb00ebe1\/repo\/images\/com.doraorak.vanish\/icon.svg",
+      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.vanish\/icon.svg",
       "author" : "doraorak",
-      "description" : "Animates windows closing from the red traffic-light button with customizable per-animation durations.",
-      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/6dd05753443b68a1674b42400a221a88fb00ebe1\/repo\/images\/com.doraorak.vanish\/banner.svg",
+      "description" : "Animates windows closing from the red traffic-light button with over 10 customizable animations and duration controls.",
+      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.vanish\/banner.svg",
       "category" : "System UI",
       "section" : "System UI",
       "sourceRepoURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/Packages.json",
@@ -32,11 +32,11 @@
       "version" : "1.2",
       "maintainer" : "doraorak",
       "packageID" : "com.doraorak.vanish",
-      "shortDescription" : "Window close animations with per-animation duration controls",
+      "shortDescription" : "Window close animations with over 10 styles and duration controls",
       "depends" : "mobilesubstrate (>= 0.9.5000)",
       "sourceRepoName" : "TI Store",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.vanish.deb",
-      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/6dd05753443b68a1674b42400a221a88fb00ebe1\/repo\/images\/com.doraorak.vanish\/featured.svg",
+      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.vanish\/featured.svg",
       "sha256" : "1050bf0600ec7d9bd267d16262ab09ffbca23521a2404457285460f8a09a7f80"
     },
     {
@@ -53,10 +53,10 @@
       "hookCount" : 2,
       "name" : "dockpid",
       "architecture" : "darwin-arm64e",
-      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/81f811bab4d38a9a84758dc27f8181a068b91f94\/repo\/images\/com.doraorak.dockpid\/icon.svg",
+      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/icon.svg",
       "author" : "doraorak",
       "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/7a882a584a7b41feada9efcd71f3c7b941d4b31b\/repo\/images\/com.doraorak.dockpid\/banner.svg",
+      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/banner.svg",
       "category" : "Utilities",
       "section" : "Utilities",
       "screenshotURLs" : [
@@ -72,7 +72,7 @@
       "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloaderx",
       "sourceRepoName" : "TI Store",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.dockpid.deb",
-      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/7a882a584a7b41feada9efcd71f3c7b941d4b31b\/repo\/images\/com.doraorak.dockpid\/featured.svg",
+      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.dockpid\/featured.svg",
       "sha256" : "b476fe2c48a61e7deb804f6a861c2c90d6ca0f37879413d2abfff791977e2b38"
     },
     {
@@ -81,7 +81,7 @@
         "Version" : "1.2",
         "Depends" : "mobilesubstrate (>= 0.9.5000)",
         "Package" : "com.doraorak.preferenceloaderx",
-        "Description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
+        "Description" : "PreferenceLoaderX engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
         "Maintainer" : "Dora Orak",
         "Author" : "Dora Orak",
         "Section" : "System",
@@ -90,14 +90,14 @@
       "hookCount" : 51,
       "name" : "PreferenceLoaderX",
       "architecture" : "arm64e",
-      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/a495ded59504dc42d6f60abb2724071bea45e71b\/repo\/images\/com.doraorak.preferenceloaderx\/icon.svg",
+      "iconURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloaderx\/icon.svg",
       "author" : "doraorak",
-      "description" : "PreferenceLoader is the foundational module that dynamically loads third-party configuration panes and settings bundles into the macOS preferences ecosystem.",
-      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/a495ded59504dc42d6f60abb2724071bea45e71b\/repo\/images\/com.doraorak.preferenceloaderx\/banner.svg",
+      "description" : "PreferenceLoaderX is the foundational module that dynamically loads third-party configuration panes and settings bundles into the macOS preferences ecosystem.",
+      "bannerImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloaderx\/banner.svg",
       "category" : "Developer",
       "section" : "Developer",
       "screenshotURLs" : [
-        "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/b44e020427345b60b549aba24f311bb4e1311ca0\/repo\/images\/com.doraorak.preferenceloaderx\/screenshots\/1.jpg"
+        "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloaderx\/screenshots\/1.jpg"
       ],
       "sourceRepoURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/Packages.json",
       "version" : "1.2",
@@ -106,7 +106,7 @@
       "depends" : "mobilesubstrate (>= 0.9.5000)",
       "sourceRepoName" : "TI Store",
       "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/debs\/com.doraorak.preferenceloaderx.deb",
-      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/a495ded59504dc42d6f60abb2724071bea45e71b\/repo\/images\/com.doraorak.preferenceloaderx\/featured.svg",
+      "featuredImageURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/TweakInject-Store\/main\/repo\/images\/com.doraorak.preferenceloaderx\/featured.svg",
       "sha256" : "14fe235c4c221153d0af1ab6de396e72ec10053c516d84950757d02c831505e5"
     },
     {
@@ -138,5 +138,5 @@
       "sha256" : "44fcd28b33c3d705d0d8f126edb655d14ece4f39b967a10f935d720b6460b73e"
     }
   ],
-  "serial" : 117
+  "serial" : 118
 }
